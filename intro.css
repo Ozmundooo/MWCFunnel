@@ -1,0 +1,37 @@
+
+.introLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50%;
+    padding-bottom: 5%;
+
+    width: 300px;
+}
+
+.w3-animate-left {
+    position: relative;
+    animation: animateleft 3.4s;
+}
+
+.w3-animate-right {
+    position: relative;
+    animation: animateright 2.4s;
+}
+
+.btn{
+    width: 20%;
+    font-size: 25px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}

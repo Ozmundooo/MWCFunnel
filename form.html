@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+            <!-- Bootstrap core CSS -->
+            <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+            <!-- Custom styles -->
+            <link href="assets/multistepform/css/style.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            
+
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+            <link href="https://theautoproviders.ca/css/bootstrap.min.css" rel="stylesheet">
+            <link href="https://theautoproviders.ca/css/fontawesome-all.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+            <!-- BASE CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/menu.css" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet">
+            <link href="css/vendors.css" rel="stylesheet">
+
+            <!-- YOUR CUSTOM CSS -->
+            <link href="css/custom.css" rel="stylesheet">
+            
+            <link href="styles.css" rel="stylesheet">
+            
+            <link rel="stylesheet" type="text/css" href="reset.css">
+            <link rel="stylesheet" type="text/css" href="dropdown.css">
+            
+            <script src="dropdown.js"></script>
+            
+            <link href="kwesstyle.css" rel="stylesheet">          
+    </head>
+    <body style="background-color: #1a1a1a; ">
+        <div  style="z-index: 1;">
+            <img class="logoMWC" src="Logo(no bg).png" alt="Logo">
+            <form class="kwes-form" action="https://kwes.io/api/foreign/forms/yiCei9GP8ykHlzM3Ge7g" multistep redirect=submit.html>
+                <div class="kw-multistep ">
+                    <div class="kw-multistep-step">
+                        <div class="kw-multistep-body">
+                            <h2 class="fs-title titleForm" style="text-align: center;">What car make are you looking for?</h2>
+                            <div class="d-none d-md-block">
+                                <div class="row ">
+                                    <div class="col-12 col-md-8 offset-md-2">
+                                        <div class="row car-group">
+                                            <div class="col-4 p-1">
+                                                <button type="button" class="btn btn-default btn-block active " id="I Want a Sedan">
+                                                    <h5 class="my-3">Sedan</h5>
+                                                    <img src="https://theautoproviders.ca/images/car.png" alt="Car Image">
+                                                </button>
+                                            </div>
+                                            <div class="col-4 p-1">
+                                                <button type="button" class="btn btn-default btn-block" id="I Want a Truck">
+                                                    <h5 class="my-3">Truck</h5>
+                                                    <img src="https://theautoproviders.ca/images/truck.png" alt="Truck Image">
+                                                </button>
+                                            </div>
+                                            <div class="col-4 p-1">
+                                                <button type="button" class="btn btn-default btn-block" id="I Want an SUV">
+                                                    <h5 class="my-3">SUV</h5>
+                                                    <img src="https://theautoproviders.ca/images/suv.png" alt="SUV Image">
+                                                </button>
+                                            </div>
+                                            <div class="col-4 p-1">
+                                                <button type="button" class="btn btn-default btn-block" id="I Want a Minivan">
+                                                    <h5 class="my-3">Minivan</h5>
+                                                    <img src="https://theautoproviders.ca/images/minivan.png" alt="Minivan Image">
+                                                </button>
+                                            </div>
+                                            <div class="col-4 p-1">
+                                                <button type="button" class="btn btn-default btn-block" id="I Want a Coupe">
+                                                    <h5 class="my-3">Coupe</h5>
+                                                    <img src="https://theautoproviders.ca/images/coupe.png" alt="Coupe Image">
+                                                </button>
+                                            </div>
+                                            <div class="col-4 p-1">
+                                                <button type="button" class="btn btn-default btn-block" id="I'm Not Sure">
+                                                    <h5 class="customized-margin">I'm Not Sure</h5>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-block d-md-none ">
+                                <div class="row car-group-mobile ">
+                                    <div class="col-12 p-1 ">
+                                        <button type="button" class="btn btn-form btn-block active " id="I Want a Sedan" style="padding:0;">
+                                            <span style="display: inline-block; width: 30%;">Sedan</span><img class="w3-animate-right"src="https://theautoproviders.ca/images/car.png" style="height:60px;">
+                                        </button>
+                                    </div>
+                                    <div class="col-12 p-1">
+                                        <button type="button" class="btn btn-form btn-block" id="I Want a Truck" style="padding:0;">
+                                            <span style="display: inline-block; width: 30%;">Truck</span><img src="https://theautoproviders.ca/images/truck.png" class="w3-animate-right" style="height:60px;">
+                                        </button>
+                                    </div>
+                                    <div class="col-12 p-1">
+                                        <button type="button" class="btn btn-form btn-block" id="I Want an SUV" style="padding:0;">
+                                            <span style="display: inline-block; width: 30%;">SUV</span><img src="https://theautoproviders.ca/images/suv.png" class="w3-animate-right" style="height:60px;">
+                                        </button>
+                                    </div>
+                                    <div class="col-12 p-1">
+                                        <button type="button" class="btn btn-form btn-block" id="I Want a Minivan" style="padding:0;">
+                                            <span style="display: inline-block; width: 30%;">Minivan</span><img src="https://theautoproviders.ca/images/minivan.png" class="w3-animate-right" style="height:60px;">
+                                        </button>
+                                    </div>
+                                    <div class="col-12 p-1">
+                                        <button type="button" class="btn btn-form btn-block" id="I Want a Coupe" style="padding:0;">
+                                            <span style="display: inline-block; width: 30%;">Coupe</span><img src="https://theautoproviders.ca/images/coupe.png" class="w3-animate-right" style="height:60px;">
+                                        </button>
+                                    </div>
+                                    <div class="col-12 p-1">
+                                        <button type="button" class="btn btn-form btn-block" id="I'm Not Sure" style="padding:0;">
+                                            <span style="height:60px; display: inline-block; padding-top: 18px;">I'm Not Sure</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="text" class="d-none" name="button_clicked" id="button_clicked" value="">
+                            <input type="text" class="d-none" name="vehicle_type" id="vehicle_type" value="I Want a Car">
+                            <br>
+                            <!-- <div style="text-align:center">
+                                <span class="dot-active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="kw-multistep-step">
+                        <div class="kw-multistep-body ">
+                            <h2 class="fs-title titleForm" style="text-align: center;">What is your budget?</h2>
+                            <p class="my-5 font-weight-500 text-center">What type of payment are you looking for?</p>
+                            <select id="typeOfPayment" onchange="toggle()" class="select-css" name="typeOfPayment">
+                                <option value="Monthly">Monthly (12 Payments)</option>
+                                <option value="Bi-Weekly">Bi-Weekly (26 Payments)</option>
+                            </select>
+                            <br>
+                            <div class="row">
+                                <div class="col-12 col-md-8 offset-md-2">
+                                    <div id="monthly" class="row btn-group-1">
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block active" id="Under $350">Under $350 / month</button>
+
+                                        </div>
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block" id="$351 to $450">$351 - $450 / month</button>
+                                        </div>
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block" id="$451 to $550">$451 - $550 / month</button>
+                                        </div>
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block" id="Over $550">Over $550 / month</button>
+                                        </div>
+                                    </div>
+                                    <div id="biweekly" class="row btn-group-1">
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block active" id="$161">Under $161 / month</button>
+
+                                        </div>
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block" id="$161 to $208">$162 - $208 / month</button>
+                                        </div>
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block" id="$208 to $254">$208 - $254 / month</button>
+                                        </div>
+                                        <div class="col-12 col-md-6 p-1">
+                                            <button type="button" class="btn btn-form btn-block" id="$255">Over $255 / month</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="text" class="d-none" name="monthly_budget" id="monthly_budget" value="Under $350">
+                            <div class="p-1 text-center continue" id="group-1-next">
+                            </div>
+                            <br>
+                            <!-- 
+                            <div style="text-align:center">
+                                <span class="dot-active"></span>
+                                <span class="dot-active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="kw-multistep-step">
+                        <div class="kw-multistep-body">
+                            <h2 class="fs-title titleForm" style="text-align: center;">What are your top <u>three</u> elements when searching for your next vehicle?</h2>
+                            <fieldset class="fieldset" data-kw-group rules="required" >   
+                                <fieldset data-kw-group rules="required">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="elements" value="Safety">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            Safety
+                                        </label>
+                                      </div>
+                                    <input type="checkbox" name="elements" value="Safety"> Safety
+                                    <input type="checkbox" name="elements" value="Orange"> Practicality
+                                    <input type="checkbox" name="elements" value="Appearance"> Appearance
+                                    <input type="checkbox" name="elements" value="Economical"> Economical
+                                    <input type="checkbox" name="elements" value="Comfort"> Comfort
+                                    <input type="checkbox" name="elements" value="Dependable"> Dependable
+                                </fieldset>                              
+                                <!-- <div class="row" >
+                                    <div class="col-lg-6">
+                                        <div class="inputGroup">
+                                            <label class="label4" for="Safety">Safety</label>
+                                            <input class="cbox" type="checkbox" name="elements" value="Safety" checked="checked"> 
+                                        </div>
+                                        <div>
+                                            <label class="label4" for="Practicality">Practicality</label>
+                                            <input class="cbox" type="checkbox" name="elements" value="Practicality" checked="checked">
+                                        </div>
+                                        <div>
+                                            <label class="label4" for="Appearance">Appearance</label>
+                                            <input class="cbox" type="checkbox" name="elements" value="Appearance" checked="checked">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <label class="label4" for="Economical">Economical</label>
+                                            <input class="cbox" type="checkbox" name="elements" value="Economical"> 
+                                        </div>
+                                        <div>
+                                            <label class="label4" for="Comfort">Comfort</label>
+                                            <input class="cbox" type="checkbox" name="elements" value="Comfort">
+                                        </div>
+                                        <div>
+                                            <label class="label4" for="Dependable">Dependable</label> 
+                                            <input class="cbox" type="checkbox" name="elements" value="Dependable">  
+                                        </div> 
+                                    </div>
+                                </div>                                               -->
+                            </fieldset>
+                            <br>
+                            <!-- 
+                            <div style="text-align:center">
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="kw-multistep-step">
+                        <div class="personal kw-multistep-body">
+                            <h2 class="fs-title titleForm" style="text-align: center;">Personal Information</h2>
+                            
+                            <fieldset data-kw-group rules="required">
+                                <p class="my-5 font-weight-500 text-center">Are you employed?</p>
+                                <select id="employed" onchange="toggle()" class="select-css" name="employed">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </fieldset>
+
+                        
+                            <fieldset data-kw-group rules="required">
+                                <p class="my-5 font-weight-500 text-center">Are you a citizen of Canada?</p>
+                                <select id="citizen" onchange="toggle()" class="select-css" name="citizen">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </fieldset>
+
+                            <fieldset data-kw-group rules="required">
+                                <p class="my-5 font-weight-500 text-center">Are you looking for financing?</p>  
+                                <select id="financing" onchange="toggle()" class="select-css" name="financing">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>                          
+                            </fieldset>
+
+                            <br>
+                            <!--
+                            <div style="text-align:center">
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="kw-multistep-step">
+                        <div class="kw-multistep-body">
+                            <h2 class="fs-title titleForm" style="text-align: center;">Contact Information</h2>
+                            
+                            <div class="row car-group-mobile ">
+                                <div class="col-12 p-1 ">
+                                    <input type="text" name="fname" placeholder="First Name"/>
+                                </div>
+                            </div>
+                            <div class="row car-group-mobile ">
+                                <div class="col-12 p-1 ">
+                                    <input type="text" name="lname" placeholder="Last Name"/>
+                                </div>
+                            </div>
+                            <div class="row car-group-mobile ">
+                                <div class="col-12 p-1 ">
+                                    <input type="text" name="phone" placeholder="Phone"/>
+                                </div>
+                            </div>
+                            <div class="row car-group-mobile ">
+                                <div class="col-12 p-1 ">
+                                    <input type="text" name="email" placeholder="Email"/>
+                                </div>
+                            </div>
+                            <br>
+                            <!--
+                            <div style="text-align:center">
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot"></span>
+                            </div>
+                            -->
+                        </div>
+                    </div>  
+                    <div class="kw-multistep-step">
+                        <div class="personal kw-multistep-body">
+                            <h2 class="fs-title titleForm" style="text-align: center;">How would you like to be contacted?</h2>
+                            
+                            <fieldset data-kw-group rules="required">
+                                <p class="my-5 font-weight-500 text-center"></p>
+                                <select id="contact" onchange="toggle()" class="select-css" name="contact">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>   
+                            </fieldset>
+                            <br>
+                            <!--
+                            <div style="text-align:center">
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                                <span class="dot-next"></span>
+                            </div>                           
+                            -->
+                        </div>
+                    </div>  
+                </div>
+            </form>            
+        </div>
+
+        
+        <script src="https://kwes.io/v2/kwes-script.js" defer></script>
+        <script src="budget.js"></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/multistepform/js/msform.js"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript" src="dropdown.js"></script>
+
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/multistepform/js/msform.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        <!-- COMMON SCRIPTS -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/common_scripts.min.js"></script>
+        <script src="js/velocity.min.js"></script>
+        <script src="js/common_functions.js"></script>
+
+        <!-- Wizard script without branch -->
+        <script src="js/wizard_without_branch.js"></script>
+
+        <script src="budget.js"></script>
+    </body>
+</html>
+
+<script>
+$('.car-group .btn-default').on('click', function() {
+    $('.car-group .btn-default').removeClass('active');
+    $(this).addClass('active');
+    if($(this).closest('.col-4').hasClass('continue')){
+        $(this).closest('[data-step]').hide();
+        $('[data-step="' + parseInt($(this).closest('[data-step]').data('step') + 1) + '"]').show();
+        $('#progressbar-desk').css('width', (parseInt($(this).closest('[data-step]').data('step')) * 10) + '%');
+        $(".hideonclick").hide();
+        $(".noshow").show();
+        gtag('event', 'pick car', {'event_label' : 'new'});
+        History.pushState({state:1}, "Budget", "a?step=budget");
+    }
+    $('.car-group .col-4').removeClass('continue');
+    $(this).closest('.col-4').addClass('continue');
+    $('.car-title').html($(this).attr('id'));
+    $('#vehicle_type').val($(this).attr('id'));
+});
+
+$('.car-group-mobile .btn-form').on('click', function() {
+    $('.car-group-mobile .btn-form').removeClass('active');
+    $(this).addClass('active');
+    $('.car-title').html($(this).attr('id'));
+    $('#vehicle_type').val($(this).attr('id'));
+});
+
+$('.btn-group-1 .btn-form').on('click', function() {
+    $('.btn-group-1 .btn-form').removeClass('active');
+    $(this).addClass('active');
+    if($(this).closest('.col-12').hasClass('continue')){
+        $(this).closest('[data-step]').hide();
+        $('[data-step="' + parseInt($(this).closest('[data-step]').data('step') + 1) + '"]').show();
+        $('#progressbar-desk').css('width', (parseInt($(this).closest('[data-step]').data('step')) * 10) + '%');
+        gtag('event', 'budget', {'event_label' : 'new'});
+        History.pushState({state:2}, "Driving", "a?step=driving");
+    }
+    $('.btn-group-1 .col-12').removeClass('continue');
+    $(this).closest('.col-12').addClass('continue');
+    $('#monthly_budget').val($(this).attr('id'));
+});
+
+$('.btn-group-new .btn-form').on('click', function() {
+    $('.btn-group-new .btn-form').removeClass('active');
+    $(this).addClass('active');
+    if($(this).closest('.col-12').hasClass('continue')){
+        $(this).closest('[data-step]').hide();
+        $('[data-step="' + parseInt($(this).closest('[data-step]').data('step') + 1) + '"]').show();
+        $('#progressbar-desk').css('width', (parseInt($(this).closest('[data-step]').data('step')) * 10) + '%');
+        $('.only-show-4').show();
+        gtag('event', 'currently driving', {'event_label' : 'new'});
+        History.pushState({state:3}, "Address", "a?step=address");
+    }
+    $('.btn-group-new .col-12').removeClass('continue');
+    $(this).closest('.col-12').addClass('continue');
+    $('#current_driving').val($(this).attr('id'));
+});
+
+$('.btn-group-2 .btn-form').on('click', function() {
+    $('.btn-group-2 .btn-form').removeClass('active');
+    $(this).addClass('active');
+    if($(this).attr('id') == "Rent"){
+        $('#rent_or_own').val('Rent');
+    } else if($(this).attr('id') == "Own") {
+        $('#rent_or_own').val('Own');
+    } else {
+        $('#rent_or_own').val('Other');
+        $('#monthly_payment').val(0);
+    }
+});
+
+$('.btn-group-other .btn-form').on('click', function() {
+    $('.btn-group-other .btn-form').removeClass('active');
+    $(this).addClass('active');
+    $('#income_source').val($(this).attr('id'));
+});
+
+$(".car-group-mobile").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".car-title").offset().top
+    }, 1500);
+});
+
+$(".btn-group-1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#group-1-next").offset().top
+    }, 1500);
+});
+
+$(".btn-group-new").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#group-new-next").offset().top
+    }, 1500);
+});
+
+$(".movetonext").click(function() {
+    gtag('event', 'congrats', {'event_label' : 'new'});
+    intervalflag = false;
+    $('[data-step="4"]').hide();
+    $('.blurOnLoading').css('filter', "none");
+    $('[data-step="6"]').hide();
+    $('.only-show-name').hide();
+    $('[data-step="7"]').show();
+    History.pushState({state:4}, "Home", "a?step=home");
+});
+
+$("#find").click(function() {
+    $("#vehicle_type").val($("#specific_vehicle").val());
+    $(this).closest('[data-step]').hide();
+    $('[data-step="' + parseInt($(this).closest('[data-step]').data('step') + 1) + '"]').show();
+    $('#progressbar-desk').css('width', (parseInt($(this).closest('[data-step]').data('step')) * 10) + '%');
+    $(".hideonclick").hide();
+    $(".noshow").show();
+    gtag('event', 'pick car', {'event_label' : 'new'});
+    History.pushState({state:1}, "Budget", "a?step=budget");
+});
+
+var getparm = '';
+
+switch(getparm) {
+  case 'budget':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="2"]').show();
+    $('#progressbar-desk').css('width', '10%');
+    History.replaceState({state:1}, "Budget", "a?step=budget");
+    break;
+  case 'driving':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="3"]').show();
+    $('#progressbar-desk').css('width', '20%');
+    History.replaceState({state:2}, "Driving", "a?step=driving");
+    break;
+  case 'address':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="4"]').show();
+    $('#progressbar-desk').css('width', '30%');
+    History.replaceState({state:3}, "Address", "a?step=address");
+    break;
+  case 'home':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="7"]').show();
+    $('#progressbar-desk').css('width', '40%');
+    History.replaceState({state:4}, "Home", "a?step=home");
+    break;
+  case 'name':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').show();
+    $('[data-step="8"]').show();
+    $('#progressbar-desk').css('width', '60%');
+    History.replaceState({state:5}, "Name", "a?step=name");
+    break;
+  case 'dob':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="9"]').show();
+    $('#progressbar-desk').css('width', '70%');
+    History.replaceState({state:6}, "DOB", "a?step=dob");
+    break;
+  case 'employment':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="10"]').show();
+    $('#progressbar-desk').css('width', '80%');
+    History.replaceState({state:7}, "Employment", "a?step=employment");
+    break;
+  case 'income':
+    hideall();
+    $(".noshow").show();
+    $(".hideonclick").hide();
+    $('.only-show-name').hide();
+    $('[data-step="11"]').show();
+    $('#progressbar-desk').css('width', '90%');
+    History.replaceState({state:8}, "Income", "a?step=income");
+    break;
+  default:
+    hideall();
+    $(".noshow").hide();
+    $(".hideonclick").show();
+    $('.only-show-name').hide();
+    $('[data-step="1"]').show();
+    $('#progressbar-desk').css('width', '0');
+}
+
+</script>
