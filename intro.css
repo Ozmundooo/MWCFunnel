@@ -35,3 +35,8 @@
     background-color: #1a1a1a;
     border-color: #1a1a1a;
 }
+
+label {
+    font-size: 6em;
+    color: white;
+}

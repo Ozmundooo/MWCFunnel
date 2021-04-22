@@ -29,14 +29,16 @@
             <!-- YOUR CUSTOM CSS -->
             <link href="css/custom.css" rel="stylesheet">
             
-            <link href="styles.css" rel="stylesheet">
+            
             
             <link rel="stylesheet" type="text/css" href="reset.css">
             <link rel="stylesheet" type="text/css" href="dropdown.css">
             
             <script src="dropdown.js"></script>
             
-            <link href="kwesstyle.css" rel="stylesheet">          
+            <link href="kwesstyle.css" rel="stylesheet"> 
+
+            <link href="styles.css" rel="stylesheet">         
     </head>
     <body style="background-color: #1a1a1a; ">
         <div  style="z-index: 1;">
@@ -201,19 +203,28 @@
                             <h2 class="fs-title titleForm" style="text-align: center;">What are your top <u>three</u> elements when searching for your next vehicle?</h2>
                             <fieldset class="fieldset" data-kw-group rules="required" >   
                                 <fieldset data-kw-group rules="required">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="elements" value="Safety">
-                                        <label class="form-check-label" for="flexCheckIndeterminate">
-                                            Safety
-                                        </label>
-                                      </div>
-                                    <input type="checkbox" name="elements" value="Safety"> Safety
-                                    <input type="checkbox" name="elements" value="Orange"> Practicality
-                                    <input type="checkbox" name="elements" value="Appearance"> Appearance
-                                    <input type="checkbox" name="elements" value="Economical"> Economical
-                                    <input type="checkbox" name="elements" value="Comfort"> Comfort
-                                    <input type="checkbox" name="elements" value="Dependable"> Dependable
-                                </fieldset>                              
+                                    <div class="elementsQuestions">
+                                        <input type="checkbox" name="elements" value="Safety" checked="checked"> <label for="checkbox">Safety</label>
+                                        <br>
+                                        <br>
+                                        <input type="checkbox" name="elements" value="Orange" checked="checked"> <label for="checkbox">Practicality</label>
+                                        <br>
+                                        <br>
+                                        <input type="checkbox" name="elements" value="Appearance" checked="checked"> <label for="checkbox">Appearance</label>
+                                        <br>
+                                        <br>
+                                        <input type="checkbox" name="elements" value="Economical"> <label for="checkbox">Economical</label>
+                                        <br>
+                                        <br>
+                                        <input type="checkbox" name="elements" value="Comfort"> <label for="checkbox">Comfort</label>
+                                        <br>
+                                        <br>
+                                        <input type="checkbox" name="elements" value="Dependable"> <label for="checkbox">Dependable</label>
+                                        <br>
+                                        <br>                                                                       
+                                    </div>                                 
+                                </fieldset> 
+                                                           
                                 <!-- <div class="row" >
                                     <div class="col-lg-6">
                                         <div class="inputGroup">
@@ -344,8 +355,8 @@
                             <fieldset data-kw-group rules="required">
                                 <p class="my-5 font-weight-500 text-center"></p>
                                 <select id="contact" onchange="toggle()" class="select-css" name="contact">
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
+                                    <option value="phone">Phone</option>
+                                    <option value="no">Email</option>
                                 </select>   
                             </fieldset>
                             <br>

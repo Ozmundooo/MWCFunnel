@@ -518,3 +518,18 @@ select.form-control:not([size]):not([multiple]) {
     height: 100%;
     width: 100%;
 }
+
+/* Checkbox Styling */
+label{
+    font-size: 1.4em;
+    left:0;
+    position: static;
+    padding-left: 10px;
+    color: white;
+    vertical-align: top;
+
+}
+input[type=checkbox] {
+    transform: scale(2);
+
+}
